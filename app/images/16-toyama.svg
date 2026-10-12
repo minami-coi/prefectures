@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="625.453274 419.604491 74.674400 65.953472"><g class="svg-map" transform="matrix(1.453488, 0, 0, 1.453488, -435.334259, -216.944946)">
+    <g class="prefectures" transform="matrix(1, 0, 0, 1, 6, 18)">
+      <g class="toyama chubu prefecture" data-code="16" stroke-linejoin="round" transform="matrix(1, 0, 0, 1, 724.51001, 420.634125)" fill="#EEEEEE" fill-rule="nonzero" stroke="#000000" stroke-width="1.0">
+        <title>富山 / Toyama</title>
+        <polygon points="41 37 31 33 27 35 27 33 22 35 19 33 10 44 9 40 5 38 1 43 0 35 2 27 1 23 3 20 1 16 4 14 6 4 14 2 11 8 23 15 31 11 33 3 43 0 47 3 50 14 49 25 46 26 47 29" />
+      </g>
+      </g>
+    </g>
+</svg>

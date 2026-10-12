@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="363.825434 562.046270 87.755792 86.302304"><g class="svg-map" transform="matrix(1.453488, 0, 0, 1.453488, -435.334259, -216.944946)">
+    <g class="prefectures" transform="matrix(1, 0, 0, 1, 6, 18)">
+      <g class="okayama chugoku prefecture" data-code="33" stroke-linejoin="round" transform="matrix(1, 0, 0, 1, 544.51001, 518.634094)" fill="#EEEEEE" fill-rule="nonzero" stroke="#000000" stroke-width="1.0">
+        <title>岡山 / Okayama</title>
+        <polygon points="58 8 59 14 51 22 52 29 50 32 54 38 53 41 46 39 49 42 43 49 34 48 39 49 36 53 34 52 33 57 27 55 25 58 23 52 23 55 19 51 15 55 10 52 12 56 8 54 4 38 5 33 1 28 3 21 0 18 1 15 8 14 7 10 14 10 13 7 15 6 18 0 25 2 29 7 39 1 38 3 45 6 46 12" />
+      </g>
+      </g>
+    </g>
+</svg>

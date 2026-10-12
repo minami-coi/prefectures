@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="92.023133 707.395070 61.593008 58.686032"><g class="svg-map" transform="matrix(1.453488, 0, 0, 1.453488, -435.334259, -216.944946)">
+    <g class="prefectures" transform="matrix(1, 0, 0, 1, 6, 18)">
+      <g class="saga kyushu kyushu-okinawa prefecture" data-code="41" stroke-linejoin="round" transform="matrix(1, 0, 0, 1, 357.509979, 618.634094)" fill="#EEEEEE" fill-rule="nonzero" stroke="#000000" stroke-width="1.0">
+        <title>佐賀 / Saga</title>
+        <polygon points="15 6 28 6 34 12 41 10 40 16 32 21 30 28 25 23 19 29 22 39 14 36 8 29 9 25 2 23 0 16 2 13 5 17 4 13 6 9 2 6 3 4 6 6 6 0 7 2 11 2 12 7" />
+      </g>
+      </g>
+    </g>
+</svg>

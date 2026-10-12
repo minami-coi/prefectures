@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="74.581277 823.674155 118.279040 173.511584"><g class="svg-map" transform="matrix(1.453488, 0, 0, 1.453488, -435.334259, -216.944946)">
+    <g class="prefectures" transform="matrix(1, 0, 0, 1, 6, 18)">
+      <g class="kagoshima kyushu kyushu-okinawa prefecture" data-code="46" stroke-linejoin="round" transform="matrix(1, 0, 0, 1, 345.509979, -137.365875)" fill="#EEEEEE" fill-rule="nonzero" stroke="#000000" stroke-width="1.0">
+        <title>鹿児島 / Kagoshima</title>
+        <polygon points="23 938 26 940 23 941" />
+        <polygon points="33 949 32 943 39 939 48 945 47 950 41 954 35 953" />
+        <polygon points="64 943 64 948 59 949 58 942 62 939 63 929 70 919 71 928" />
+        <polygon points="38 844 43 848 52 844 57 850 56 852 61 859 66 864 65 869 70 871 73 880 80 881 80 888 78 891 75 890 70 896 75 899 73 903 76 902 69 905 66 910 50 918 50 913 55 910 59 898 53 889 54 884 48 881 53 879 54 883 57 884 61 878 54 872 50 874 44 887 46 898 51 901 49 906 43 907 40 901 27 901 28 897 25 896 27 894 22 890 31 890 35 880 32 871 27 867 30 860 28 848 31 846 35 848" />
+        <polygon points="31 837 34 836 33 838" />
+        <polygon points="27 848 24 842 29 840 30 844" />
+        <polygon points="4 868 6 865 7 867 2 875 0 874" />
+        <polygon points="12 864 9 861 14 861" />
+      </g>
+      </g>
+    </g>
+</svg>

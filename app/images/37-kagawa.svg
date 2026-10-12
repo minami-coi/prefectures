@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="382.720778 636.174158 67.406960 49.965104"><g class="svg-map" transform="matrix(1.453488, 0, 0, 1.453488, -435.334259, -216.944946)">
+    <g class="prefectures" transform="matrix(1, 0, 0, 1, 6, 18)">
+      <g class="kagawa shikoku prefecture" data-code="37" stroke-linejoin="round" transform="matrix(1, 0, 0, 1, 557.51001, 569.634094)" fill="#EEEEEE" fill-rule="nonzero" stroke="#000000" stroke-width="1.0">
+        <title>香川 / Kagawa</title>
+        <path d="M6,33 L1,31 L4,21 L0,17 L6,20 L19,10 L26,13 L30,9 L31,14 L34,11 L37,14 L36,17 L45,22 L44,25 L31,23 L22,30 L15,27 L6,33 Z M27,5 L25,4 L29,4 L27,5 Z M40,0 L42,0 L40,8 L38,7 L38,5 L35,9 L35,5 L31,3 L40,0 Z" />
+      </g>
+      </g>
+    </g>
+</svg>

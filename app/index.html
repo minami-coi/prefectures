@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f4f1e9">
+  <meta property="og:title" content="都道府県を立て直せ！">
+  <meta property="og:description" content="都道府県を北向きに立て直すゲーム">
+  <meta property="og:image" content="https://minami-coi.github.io/prefectures/card.png">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+  <title>都道府県を立て直せ！</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="app-shell">
+    <header class="topbar"><a class="brand" href="#" aria-label="都道府県を立て直せ！ホーム"><span class="brand-mark">県</span> PREFECTURE RESCUE</a><span class="edition">JAPAN · 47 PREFECTURES</span></header>
+
+    <section id="title-screen" class="screen title-screen" aria-labelledby="game-title">
+      <div class="title-copy"><p class="eyebrow"><span class="eyebrow-line"></span> ROTATION TIME ATTACK</p><h1 id="game-title">都道府県を<br><span>立て直せ！</span></h1><p class="intro">バラバラになった都道府県を、北が上になるように回転させよう。<br>5つの県を立て直すまでのタイムに挑戦。</p><button id="start-button" class="button button-primary">ゲームスタート <span aria-hidden="true">↗</span></button><p class="title-note">全5問 · 角度を合わせて回答</p></div>
+      <div class="title-art" aria-hidden="true"><div class="art-circle"></div><div class="art-label label-one">NORTH<br>↑</div><img class="art-prefecture art-a" src="images/01-hokkaido.svg" alt=""><img class="art-prefecture art-b" src="images/13-tokyo.svg" alt=""><img class="art-prefecture art-c" src="images/47-okinawa.svg" alt=""><span class="art-cross cross-one">＋</span><span class="art-cross cross-two">＋</span><div class="art-stamp">47<br><small>PREFECTURES</small></div></div>
+    </section>
+
+    <section id="game-screen" class="screen game-screen" aria-label="ゲーム" hidden>
+      <div class="game-topline"><span class="eyebrow"><span class="eyebrow-line"></span> RESCUE IN PROGRESS</span><span class="question-counter"><span id="question-current">01</span> <i>/</i> 05</span></div>
+      <div class="progress-track" aria-label="進行状況"><span id="progress-bar"></span></div>
+      <div class="game-layout"><div class="puzzle-column"><div class="puzzle-heading"><span class="micro-label">CURRENT PREFECTURE</span><span class="unknown-tag">？？？</span></div><div class="map-stage"><div class="map-grid"></div><div class="compass"><span>N</span><i></i></div><div class="map-wash"></div><img id="prefecture-image" class="map-image" src="" alt="回転させる都道府県の地図"><span class="map-pin pin-a"></span><span class="map-pin pin-b"></span><div class="map-caption">NORTH UP<br><span>ALIGN THE MAP</span></div><div id="feedback" class="feedback" aria-live="polite"></div></div><label class="slider-label" for="angle-slider"><span>↶</span><span>ドラッグして角度を調整</span><span>↷</span></label><input id="angle-slider" type="range" min="0" max="360" step="10" value="180" aria-label="回転角度"></div>
+        <aside class="instructions"><div class="instruction-icon">↻</div><p class="micro-label">MISSION</p><h2>北を上に<br>合わせよう。</h2><p>スライダーを動かして地図を回転。操作を止めると、自動で向きを判定します。</p><div class="hint-rule"><span class="hint-dot"></span><span>正解に近づくと<br>ヒントが表示されます</span></div><div class="turn-count"><span>REPAIRED</span><strong id="repaired-count">0 <small>/ 5</small></strong></div></aside></div>
+    </section>
+
+    <section id="result-screen" class="screen result-screen" aria-labelledby="result-title" hidden>
+      <div class="result-heading"><p class="eyebrow"><span class="eyebrow-line"></span> MISSION COMPLETE</p><h1 id="result-title">立て直し完了！</h1><p>5つの都道府県を正しい向きに戻しました。</p></div><div class="result-card"><div class="result-card-top"><span>YOUR TIME</span><span>5 PREFECTURES</span></div><ol id="result-list" class="result-list"></ol><div class="total-row"><span>TOTAL TIME</span><strong id="total-time">0.00<small> sec</small></strong></div></div><div class="result-actions"><button id="share-button" class="button button-primary">𝕏　結果をシェア <span aria-hidden="true">↗</span></button><button id="home-button" class="button button-secondary">タイトルへ戻る</button></div></section>
+    <footer><span>都道府県を立て直せ！</span><span>TAKE A BREATH. THEN GO AGAIN.</span></footer>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
