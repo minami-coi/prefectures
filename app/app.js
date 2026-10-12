@@ -179,8 +179,8 @@
   $('#home-button').addEventListener('click', returnToTitle);
   $('#share-button').addEventListener('click', () => {
     const total = state.questionTimes.reduce((sum, time) => sum + time, 0);
-    const names = state.questions.map((prefecture, index) => `${index + 1}. ${prefecture.name} ${state.questionTimes[index].toFixed(2)}秒`).join('\n');
-    const text = `都道府県を立て直せ！\n5県クリア：${total.toFixed(2)}秒\n${names}`;
+    const names = state.questions.map((prefecture) => prefecture.name).join('・');
+    const text = `${names}を${total.toFixed(2)}秒で立て直しました。\nhttps://minami-coi.github.io/prefectures/`;
     window.open(`https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}`, '_blank', 'noopener,noreferrer');
   });
 
